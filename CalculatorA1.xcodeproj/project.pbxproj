@@ -164,6 +164,7 @@
 				TargetAttributes = {
 					84A9BA341C7C014D0099CC98 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = Z32K7UXVG2;
 					};
 				};
 			};
@@ -339,7 +340,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CalculatorA1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.all2sale.CalculatorA1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -350,7 +353,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CalculatorA1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.all2sale.CalculatorA1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -376,6 +381,7 @@
 				84A9BA491C7C014E0099CC98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
